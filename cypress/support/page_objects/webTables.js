@@ -49,10 +49,7 @@ export class WebTables{
 
     verifyElementsInTable(){
         
-       cy.contains('John').find('div .rt-td').then(fields=>{
-        const first_name = cy.wrap(fields).eq(1).text();
-        expect(first_name).to.eq('Doe')
-       })
+       
             
     }
 
