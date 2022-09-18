@@ -1,0 +1,5 @@
+{
+        "baseUrl":"https://demoqa.com/",
+        "ignoreTestFiles":"**/2-advanced-examples/*"
+}
+        
